@@ -1,0 +1,143 @@
+﻿@model BitbookFinal.Models.AspNetUser
+
+@{
+    ViewBag.Title = "About";
+}
+@{
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+<a href="~/Photos/@Model.ImageName" onclick="javascript:void window.open(this.href,'1357072968280','toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=1,left=0,top=0');return false;">
+    
+    
+    <img src="~/Photos/@Model.ImageName" width="170" height="200" />
+</a>
+
+    <h2>About</h2>
+
+
+    <div>
+        <h4>AspNetUser</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.PhoneNumber)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.UserName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.UserName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.AboutMe)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.AboutMe)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Birthday)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Birthday)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.FirstName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.LastName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.LastName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Interests)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Interests)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Religion)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Religion)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.School)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.School)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.College)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.College)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Unviersity)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Unviersity)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Gender)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Gender)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.RelationShipStatus)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.RelationShipStatus)
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "UpdateInfo", "Account")
+
+
+    </p>
+
+
+

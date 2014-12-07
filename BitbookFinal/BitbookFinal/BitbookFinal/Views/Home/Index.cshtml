@@ -1,0 +1,59 @@
+﻿@using BitbookFinal.Models
+@model BitbookFinal.Models.HomeViewModel
+
+@{
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+@{
+    ViewBag.Title = "Home";
+}
+
+<script type="text/javascript">
+    $(function () {
+        $("#submitButton").click(function () {
+            $("#frREQ").load("Home/ConfirmFriendRequest");
+        });
+    });
+</script>
+
+<div class="col-lg-8">
+    <div class="publishContainer">
+        <textarea class="msgTextArea" id="txtMessage" data-bind="value: newMessage, jqAutoresize: {}" style="height:3em;" placeholder="What's on your mind?"></textarea>
+        <input type="button" data-url="/Wall/SavePost" value="Share" id="btnShare" data-bind="click: addPost">
+    </div>
+    <ul id="msgHolder" data-bind="foreach: posts">
+        <li class="postHolder">
+            <img data-bind="attr: { src: PostedByAvatar }"><p><a data-bind="text: PostedByName"></a>: <span data-bind="    html: Message"></span></p>
+            <div class="postFooter">
+                <span class="timeago" data-bind="text: PostedDate"></span>&nbsp;<a class="linkComment" href="#" data-bind="    click: toggleComment">Comment</a>
+                <div class="commentSection">
+                    <ul data-bind="foreach: PostComments">
+                        <li class="commentHolder">
+                            <img data-bind="attr: { src: CommentedByAvatar }"><p><a data-bind="text: CommentedByName"></a>: <span data-bind="    html: Message"></span></p>
+                            <div class="commentFooter"> <span class="timeago" data-bind="text: CommentedDate"></span>&nbsp;</div>
+                        </li>
+                    </ul>
+                    <div style="display: block" class="publishComment">
+                        <textarea class="commentTextArea" data-bind="value: newCommentMessage, jqAutoresize: {}" placeholder="write a comment..."></textarea>
+                        <input type="button" value="Comment" class="btnComment" data-bind="click: addComment" />
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<div class="col-lg-4">
+    <div id="frREQ">
+        @Html.Partial("_ConfirmFriendPartial", new Tuple<List<AspNetUser>, List<FriendRelation>>(new List<AspNetUser>(Model.AspNetUsers), new List<FriendRelation>(Model.FriendRelations)))
+    </div>
+    <div>
+        
+    </div>
+</div>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.autosize.js"></script>
+<script src="~/Scripts/jquery.timeago.js"></script>
+<script src="~/Scripts/knockout-3.2.0.js"></script>
+<script src="~/Scripts/wallpost.js"></script>

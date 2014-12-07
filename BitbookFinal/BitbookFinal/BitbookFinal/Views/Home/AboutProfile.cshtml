@@ -1,0 +1,217 @@
+﻿@model BitbookFinal.Models.AspNetUser
+
+@{
+    ViewBag.Title = "About";
+}
+@{
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+<a href="~/Photos/@Model.ImageName" onclick="javascript:void window.open(this.href,'1357072968280','toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=1,left=0,top=0');return false;">
+    <img src="~/Photos/@Model.ImageName" width="270" height="300" /></a>
+
+    <h2>@Model.FirstName</h2>
+
+
+    <div>
+        <h4>Profile details</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.PhoneNumber)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.UserName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.UserName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.AboutMe)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.AboutMe)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Birthday)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Birthday)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.FirstName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.LastName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.LastName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Interests)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Interests)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Religion)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Religion)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.School)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.School)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.College)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.College)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Unviersity)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Unviersity)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Gender)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Gender)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.RelationShipStatus)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.RelationShipStatus)
+            </dd>
+
+        </dl>
+    </div>
+
+    @Html.ActionLink("Back", "Index")
+
+
+    <button type="button"
+            onclick="document.getElementById('demo').innerHTML = Date()">
+        Click me to display Date and Time.
+    </button>
+
+    <p id="demo"></p>
+
+    @section scripts{
+        @Scripts.Render("~/bundles/jqueryval")
+        <style type="text/css">
+                /* padding-bottom and top for image */
+                .mfp-no-margins img.mfp-img {
+                    padding: 0;
+                }
+                /* position of shadow behind the image */
+                .mfp-no-margins .mfp-figure:after {
+                    top: 0;
+                    bottom: 0;
+                }
+                /* padding for main container */
+                .mfp-no-margins .mfp-container {
+                    padding: 0;
+                }
+
+
+                /*
+
+            for zoom animation
+            uncomment this part if you haven't added this code anywhere else
+
+            */
+
+
+                .mfp-with-zoom .mfp-container,
+                .mfp-with-zoom.mfp-bg {
+                    opacity: 0.001; /* chrome opacity transition bug */
+                    -webkit-backface-visibility: hidden;
+                    -webkit-transition: all 0.3s ease-out;
+                    -moz-transition: all 0.3s ease-out;
+                    -o-transition: all 0.3s ease-out;
+                    transition: all 0.3s ease-out;
+                }
+
+                .mfp-with-zoom.mfp-ready .mfp-container {
+                    opacity: 1;
+                }
+
+                .mfp-with-zoom.mfp-ready.mfp-bg {
+                    opacity: 0.8;
+                }
+
+                .mfp-with-zoom.mfp-removing .mfp-container,
+                .mfp-with-zoom.mfp-removing.mfp-bg {
+                    opacity: 0;
+                }
+        </style>
+
+
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.image-popup-no-margins').magnificPopup({
+                    type: 'image',
+                    closeOnContentClick: true,
+                    closeBtnInside: false,
+                    fixedContentPos: true,
+                    mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
+                    image: {
+                        verticalFit: true
+                    },
+                    zoom: {
+                        enabled: true,
+                        duration: 300 // don't foget to change the duration also in CSS
+                    }
+                });
+
+            });
+
+        </script>
+    }
+

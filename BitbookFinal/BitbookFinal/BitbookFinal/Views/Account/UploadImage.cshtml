@@ -1,0 +1,35 @@
+﻿@using Microsoft.AspNet.Identity
+@model BitbookFinal.Models.AspNetUser
+@{
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+@if (@Model.ImageName != null)
+{
+    <img src="~/Photos/@Model.ImageName" width="250" height="300"/>
+}
+else
+{
+    <h1>Please Upload your photo</h1>
+}
+
+
+@using (Html.BeginForm("UploadImage", "Account", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @*<div class="row">
+            <span class="span4">
+                <input type="file" name="uploadImages" multiple="multiple" class="input-files" />
+            </span>
+            <span class="span2">
+                <input type="submit" name="button" value="Upload" class="btn btn-upload" />
+            </span>
+        </div>*@
+    <label style="float: left">Upload your photo &nbsp;</label>
+    <div class="form-group">
+        <label for="file">Filename:</label>
+        <input type="file" name="file" id="file" />
+        <input type="submit" class="btn btn-success"/>
+    </div>
+} 
+
+@Html.ActionLink("Back","UpdateInfo")

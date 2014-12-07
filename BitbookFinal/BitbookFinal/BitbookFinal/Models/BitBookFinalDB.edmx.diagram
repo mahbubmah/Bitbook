@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="518fcace3aeb4841934b4b8a70ffed83" Name="Diagram1">
+        <EntityTypeShape EntityType="BitbookModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BitbookModel.AspNetRole" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="BitbookModel.AspNetUserClaim" Width="1.5" PointX="5.25" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="BitbookModel.AspNetUserLogin" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BitbookModel.AspNetUser" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BitbookModel.Comment" Width="1.5" PointX="7.5" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BitbookModel.FriendRelation" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BitbookModel.Like" Width="1.5" PointX="9.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BitbookModel.Post" Width="1.5" PointX="5.25" PointY="11.625" IsExpanded="true" />
+        <AssociationConnector Association="BitbookModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="BitbookModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="BitbookModel.FK_Comment_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="BitbookModel.FK_Like_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="BitbookModel.FK_Post_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="BitbookModel.FK_Comment_Post" ManuallyRouted="false" />
+        <AssociationConnector Association="BitbookModel.FK_Like_Coment" ManuallyRouted="false" />
+        <AssociationConnector Association="BitbookModel.FK_Like_Post" ManuallyRouted="false" />
+        <AssociationConnector Association="BitbookModel.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

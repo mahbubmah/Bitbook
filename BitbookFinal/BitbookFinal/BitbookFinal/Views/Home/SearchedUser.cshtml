@@ -1,0 +1,87 @@
+﻿@using BitbookFinal.Models
+@using Microsoft.AspNet.Identity
+@model Tuple<List<AspNetUser>, List<FriendRelation>>
+           
+
+
+@{
+    ViewBag.Title = "SearchedUser";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+@if (Model != null)
+{
+    if (!@Model.Item1.Any())
+    {
+        <h2>No match found</h2>
+    }
+    else
+    {
+        <h2>@Model.Item1.Count() match found</h2>
+    }
+
+
+    <table class="table" id="frReq">
+        <tr>
+            <th>
+                Name
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model.Item1)
+        {
+            string areFriend = "Sent a friend request";
+
+            foreach (var friend in Model.Item2)
+            {
+                if (friend.UserId1 == item.Id || friend.UserId2 == item.Id)
+                {
+                    if (friend.UserId1 == User.Identity.GetUserId() || friend.UserId2 == User.Identity.GetUserId())
+                    {
+                        if (friend.AreFriend != null && (bool)friend.AreFriend)
+                        {
+                            areFriend = "Friend";
+                        }
+                        else
+                        {
+                            areFriend = "Request alrady sent";
+                        }
+                    }
+                }
+            }
+            if (item.Id != User.Identity.GetUserId())
+            {
+                <tr>
+                    <td>
+                        <a href="~/Photos/@item.ImageName" onclick="javascript:void window.open(this.href,'1357072968280','toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=1,left=0,top=0');return false;">
+                            <img src="~/Photos/@item.ImageName" width="50" height="50" />
+                        </a>
+                            @Html.ActionLink(item.FirstName + " " + item.LastName, "AboutProfile", "Home", new { id = item.Id }, null)
+</td>
+                    <td>
+                        @using (Html.BeginForm("FriendRequest", "Home", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+                            if (areFriend == "Friend")
+                            {
+                                <p>Friend</p>
+                            }
+                            else if (areFriend == "Request alrady sent")
+                            {
+                                <p>Request alrady sent</p>
+                            }
+                            else
+                            {
+                                <button type="submit" id="btnFr" name="submitButton" value="@item.Id" class="btn btn-default">@areFriend </button>
+                            }
+                        }
+                    </td>
+                </tr>
+            }
+        }
+
+    </table>
+}
+
+

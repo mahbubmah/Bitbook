@@ -1,0 +1,69 @@
+﻿@using BitbookFinal.Models
+@using Microsoft.AspNet.Identity
+@model Tuple<List<AspNetUser>, List<FriendRelation>>
+
+<h3>Friend Request</h3>
+
+    @if (Model.Item2 != null)
+    {
+        foreach (var item in Model.Item2)
+        {
+            using (Html.BeginForm("ConfirmFriendRequest", "Home", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+                if (item.UserId1 == User.Identity.GetUserId() || item.UserId2 == User.Identity.GetUserId())
+                {
+                    if (!(bool)item.AreFriend)
+                    {
+                        if (item.UserId1 == User.Identity.GetUserId())
+                        {
+                            foreach (var aspNetUser in Model.Item1)
+                            {
+                                if (aspNetUser.Id == item.UserId2)
+                                {
+                                    <br />
+                                    <div>
+
+                                        <a href="~/Photos/@aspNetUser.ImageName" onclick=" javascript:void window.open(this.href, '1357072968280', 'toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=1,left=0,top=0');return false; ">
+                                            <img src="~/Photos/@aspNetUser.ImageName" width="50" height="50" />
+                                        </a>
+
+                                        @Html.ActionLink(aspNetUser.FirstName + " " + aspNetUser.LastName, "AboutProfile", new { id = item.UserId2 }, null)
+                                        <button type="submit" id="btnFr" name="submitButton" value="@item.UserId2" class="btn btn-default">Confirm Friend</button>
+                                    </div>
+
+                                    <br />
+                                }
+                            }
+
+                        }
+
+                        else
+                        {
+                            foreach (var aspNetUser in Model.Item1)
+                            {
+                                if (aspNetUser.Id == item.UserId1)
+                                {
+                                    <br />
+
+                                    <div>
+                                        <a href="~/Photos/@aspNetUser.ImageName" onclick=" javascript:void window.open(this.href, '1357072968280', 'toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=1,left=0,top=0');return false; ">
+                                            <img src="~/Photos/@aspNetUser.ImageName" width="50" height="50" />
+                                        </a>
+
+
+
+                                        @Html.ActionLink(aspNetUser.FirstName + " " + aspNetUser.LastName, "AboutProfile", new { id = item.UserId1 }, null)
+                                        <button type="submit" id="btnFr" name="submitButton" value="@item.UserId1" class="btn btn-default">Confirm Friend</button>
+                                    </div>
+
+                                    <br />
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }

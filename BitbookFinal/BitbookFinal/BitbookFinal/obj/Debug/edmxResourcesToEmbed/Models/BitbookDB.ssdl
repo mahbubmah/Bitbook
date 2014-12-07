@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BitbookModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="BitbookProfile">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AboutMe" Type="nvarchar" MaxLength="50" />
+    <Property Name="Birthday" Type="datetime" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Interests" Type="nvarchar" MaxLength="50" />
+    <Property Name="Religion" Type="nvarchar" MaxLength="50" />
+    <Property Name="School" Type="nvarchar" MaxLength="50" />
+    <Property Name="College" Type="nvarchar" MaxLength="50" />
+    <Property Name="Unviersity" Type="nvarchar" MaxLength="50" />
+    <Property Name="Gender" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="RelationShipStatus" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Coment">
+    <Key>
+      <PropertyRef Name="ComentIed" />
+    </Key>
+    <Property Name="ComentIed" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" />
+    <Property Name="ComentText" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="PostId" Type="int" />
+  </EntityType>
+  <EntityType Name="FriendRelation">
+    <Key>
+      <PropertyRef Name="UserId1" />
+      <PropertyRef Name="UserId2" />
+    </Key>
+    <Property Name="AreFriend" Type="bit" />
+    <Property Name="UserId1" Type="int" Nullable="false" />
+    <Property Name="UserId2" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Like">
+    <Key>
+      <PropertyRef Name="LikeId" />
+    </Key>
+    <Property Name="LikeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" />
+    <Property Name="PostId" Type="int" />
+    <Property Name="ComentId" Type="int" />
+    <Property Name="UpdateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Post">
+    <Key>
+      <PropertyRef Name="PostId" />
+    </Key>
+    <Property Name="PostId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="PostText" Type="nvarchar" MaxLength="500" />
+    <Property Name="UpdateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_Coment_BitbookProfile">
+    <End Role="BitbookProfile" Type="Self.BitbookProfile" Multiplicity="0..1" />
+    <End Role="Coment" Type="Self.Coment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BitbookProfile">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Coment">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Coment_Post">
+    <End Role="Post" Type="Self.Post" Multiplicity="0..1" />
+    <End Role="Coment" Type="Self.Coment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Post">
+        <PropertyRef Name="PostId" />
+      </Principal>
+      <Dependent Role="Coment">
+        <PropertyRef Name="PostId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Like_BitbookProfile">
+    <End Role="BitbookProfile" Type="Self.BitbookProfile" Multiplicity="0..1" />
+    <End Role="Like" Type="Self.Like" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BitbookProfile">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Like">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Like_Coment">
+    <End Role="Coment" Type="Self.Coment" Multiplicity="0..1" />
+    <End Role="Like" Type="Self.Like" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Coment">
+        <PropertyRef Name="ComentIed" />
+      </Principal>
+      <Dependent Role="Like">
+        <PropertyRef Name="ComentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Like_Post">
+    <End Role="Post" Type="Self.Post" Multiplicity="0..1" />
+    <End Role="Like" Type="Self.Like" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Post">
+        <PropertyRef Name="PostId" />
+      </Principal>
+      <Dependent Role="Like">
+        <PropertyRef Name="PostId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Post_BitbookProfile">
+    <End Role="BitbookProfile" Type="Self.BitbookProfile" Multiplicity="1" />
+    <End Role="Post" Type="Self.Post" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BitbookProfile">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Post">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BitbookModelStoreContainer">
+    <EntitySet Name="BitbookProfile" EntityType="Self.BitbookProfile" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Coment" EntityType="Self.Coment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FriendRelation" EntityType="Self.FriendRelation" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Like" EntityType="Self.Like" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Post" EntityType="Self.Post" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Coment_BitbookProfile" Association="Self.FK_Coment_BitbookProfile">
+      <End Role="BitbookProfile" EntitySet="BitbookProfile" />
+      <End Role="Coment" EntitySet="Coment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Coment_Post" Association="Self.FK_Coment_Post">
+      <End Role="Post" EntitySet="Post" />
+      <End Role="Coment" EntitySet="Coment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Like_BitbookProfile" Association="Self.FK_Like_BitbookProfile">
+      <End Role="BitbookProfile" EntitySet="BitbookProfile" />
+      <End Role="Like" EntitySet="Like" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Like_Coment" Association="Self.FK_Like_Coment">
+      <End Role="Coment" EntitySet="Coment" />
+      <End Role="Like" EntitySet="Like" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Like_Post" Association="Self.FK_Like_Post">
+      <End Role="Post" EntitySet="Post" />
+      <End Role="Like" EntitySet="Like" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Post_BitbookProfile" Association="Self.FK_Post_BitbookProfile">
+      <End Role="BitbookProfile" EntitySet="BitbookProfile" />
+      <End Role="Post" EntitySet="Post" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

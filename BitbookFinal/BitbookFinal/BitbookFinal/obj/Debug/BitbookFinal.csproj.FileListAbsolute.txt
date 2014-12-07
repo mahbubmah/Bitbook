@@ -1,0 +1,225 @@
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\BitbookFinal.dll.config
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\BitbookFinal.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\BitbookFinal.pdb
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Antlr3.Runtime.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\EntityFramework.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\EntityFramework.SqlServer.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Google.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Microsoft.Web.Infrastructure.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Newtonsoft.Json.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Owin.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\System.Web.Helpers.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\System.Web.Mvc.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\System.Web.Optimization.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\System.Web.Razor.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\System.Web.WebPages.Deployment.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\System.Web.WebPages.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\System.Web.WebPages.Razor.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\WebGrease.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\System.Web.Helpers.xml
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\System.Web.Mvc.xml
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\System.Web.Optimization.xml
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\System.Web.Razor.xml
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\System.Web.WebPages.xml
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\System.Web.WebPages.Deployment.xml
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\System.Web.WebPages.Razor.xml
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Antlr3.Runtime.pdb
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Newtonsoft.Json.xml
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\EntityFramework.xml
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\EntityFramework.SqlServer.xml
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.xml
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.xml
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Google.xml
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\obj\Debug\BitbookFinal.csprojResolveAssemblyReference.cache
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\obj\Debug\BitbookFinal.dll
+c:\users\mjs\documents\visual studio 2013\Projects\BitbookFinal\BitbookFinal\obj\Debug\BitbookFinal.pdb
+J:\Project\BitbookFinal\BitbookFinal\bin\BitbookFinal.dll.config
+J:\Project\BitbookFinal\BitbookFinal\bin\BitbookFinal.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\BitbookFinal.pdb
+J:\Project\BitbookFinal\BitbookFinal\bin\Antlr3.Runtime.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\EntityFramework.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\EntityFramework.SqlServer.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\Microsoft.AspNet.Identity.Core.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\Microsoft.AspNet.Identity.Owin.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Host.SystemWeb.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Cookies.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Facebook.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Google.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.OAuth.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Twitter.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\Microsoft.Web.Infrastructure.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\Newtonsoft.Json.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\Owin.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\System.Web.Helpers.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\System.Web.Mvc.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\System.Web.Optimization.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\System.Web.Razor.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\System.Web.WebPages.Deployment.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\System.Web.WebPages.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\System.Web.WebPages.Razor.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\WebGrease.dll
+J:\Project\BitbookFinal\BitbookFinal\bin\System.Web.Helpers.xml
+J:\Project\BitbookFinal\BitbookFinal\bin\System.Web.Mvc.xml
+J:\Project\BitbookFinal\BitbookFinal\bin\System.Web.Optimization.xml
+J:\Project\BitbookFinal\BitbookFinal\bin\System.Web.Razor.xml
+J:\Project\BitbookFinal\BitbookFinal\bin\System.Web.WebPages.xml
+J:\Project\BitbookFinal\BitbookFinal\bin\System.Web.WebPages.Deployment.xml
+J:\Project\BitbookFinal\BitbookFinal\bin\System.Web.WebPages.Razor.xml
+J:\Project\BitbookFinal\BitbookFinal\bin\Antlr3.Runtime.pdb
+J:\Project\BitbookFinal\BitbookFinal\bin\Newtonsoft.Json.xml
+J:\Project\BitbookFinal\BitbookFinal\bin\EntityFramework.xml
+J:\Project\BitbookFinal\BitbookFinal\bin\EntityFramework.SqlServer.xml
+J:\Project\BitbookFinal\BitbookFinal\bin\Microsoft.AspNet.Identity.Core.xml
+J:\Project\BitbookFinal\BitbookFinal\bin\Microsoft.AspNet.Identity.Owin.xml
+J:\Project\BitbookFinal\BitbookFinal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+J:\Project\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.xml
+J:\Project\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Host.SystemWeb.xml
+J:\Project\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.xml
+J:\Project\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Facebook.xml
+J:\Project\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Cookies.xml
+J:\Project\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.OAuth.xml
+J:\Project\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Google.xml
+J:\Project\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Twitter.xml
+J:\Project\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+J:\Project\BitbookFinal\BitbookFinal\obj\Debug\BitbookFinal.csprojResolveAssemblyReference.cache
+J:\Project\BitbookFinal\BitbookFinal\obj\Debug\BitbookFinal.dll
+J:\Project\BitbookFinal\BitbookFinal\obj\Debug\BitbookFinal.pdb
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\BitbookFinal.dll.config
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\BitbookFinal.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\BitbookFinal.pdb
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Antlr3.Runtime.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\EntityFramework.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\EntityFramework.SqlServer.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Newtonsoft.Json.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Owin.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.Helpers.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.Mvc.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.Optimization.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.Razor.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.WebPages.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.WebPages.Razor.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\WebGrease.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.Helpers.xml
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.Mvc.xml
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.Optimization.xml
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.Razor.xml
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.WebPages.xml
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.WebPages.Razor.xml
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Antlr3.Runtime.pdb
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Newtonsoft.Json.xml
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\EntityFramework.xml
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\EntityFramework.SqlServer.xml
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.xml
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.xml
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\obj\Debug\BitbookFinal.dll
+C:\Users\MJS\Desktop\BitbookFinal\BitbookFinal\BitbookFinal\obj\Debug\BitbookFinal.pdb
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\BitbookFinal.dll.config
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\BitbookFinal.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\BitbookFinal.pdb
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Antlr3.Runtime.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\EntityFramework.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\EntityFramework.SqlServer.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.AspNet.Identity.Core.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.AspNet.Identity.Owin.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Host.SystemWeb.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Cookies.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Facebook.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Google.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.OAuth.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Twitter.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Web.Infrastructure.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Newtonsoft.Json.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Owin.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.Helpers.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.Mvc.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.Optimization.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.Razor.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.WebPages.Deployment.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.WebPages.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.WebPages.Razor.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\WebGrease.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.Helpers.xml
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.Mvc.xml
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.Optimization.xml
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.Razor.xml
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.WebPages.xml
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.WebPages.Deployment.xml
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.WebPages.Razor.xml
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Antlr3.Runtime.pdb
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Newtonsoft.Json.xml
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\EntityFramework.xml
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\EntityFramework.SqlServer.xml
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.AspNet.Identity.Core.xml
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.AspNet.Identity.Owin.xml
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.xml
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Host.SystemWeb.xml
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.xml
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Facebook.xml
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Cookies.xml
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.OAuth.xml
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Google.xml
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.Twitter.xml
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\obj\Debug\BitbookFinal.csprojResolveAssemblyReference.cache
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\obj\Debug\BitbookFinal.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\obj\Debug\BitbookFinal.pdb
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Net.Http.Formatting.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.Http.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.Http.WebHost.dll
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Net.Http.Formatting.xml
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.Http.xml
+J:\Project\BitbookFinal\BitbookFinal\BitbookFinal\bin\System.Web.Http.WebHost.xml
